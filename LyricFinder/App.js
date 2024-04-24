@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
-import NavigationBar from "components/NavigationBar";
+import NavigationBar from "./components/NavigationBar";
+import SearchScreen from "./components/SearchScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <NavigationBar/>
+      <NavigationBar />
+      <SearchScreen />
     </View>
   );
 }
